@@ -16,6 +16,8 @@ Question 12:
 - D: student['Favorite Teacher'].name
 - E: student.courseLoad[0]
   <br /><br />
+
+
 Question 13: 
 - A: '3' + 2 outputs **32**. The + operator when used with a string concatenates the string and the number as strings. 
 
