@@ -48,7 +48,7 @@ Question 14:
 
 - F: true === Boolean(2) outputs **true** . When using the === operator, JavaScript does not perform type conversion before making the comparison. In this case, both operands are of different types (boolean and number), but their values are both true, so the comparison result is true.  <br /><br />
 
-Question 15: 
+Question 15:  <br />
 The == operator performs a loose or abstract equality comparison, which means it checks if the values are equal after performing type coercion if necessary. This means that if the two values being compared are of different data types, JavaScript will try to convert one or both of them to the same type before making the comparison.  <br />
 
 The === operator performs a strict equality comparison, which means it checks if the values are equal without performing any type coercion. This means that the two values being compared must be of the same data type and have the same value in order for the comparison to return true. 
