@@ -35,3 +35,19 @@ Question 13:
   
 - H: '3' - undefined outputs **NaN** (Not a Number). When undefined is used in a mathematical operation, it is converted to NaN, which means the result of the operation is not a number. <br /><br />
 
+Question 14:
+- A: '2' > 1 outputs **true** . When comparing a string and a number, JavaScript automatically converts the string to a number.
+
+- B: '2' < '12' outputs **false** because the comparison operator < compares strings lexicographically and in the ASCII table, the character '2' has a higher value than the character '1'. Therefore, when comparing the strings '2' and '12', the first character in both strings is compared, and since '2' is not less than '1', the result is false.
+
+- C: 2 == '2' outputs **true** . When using the == operator, JavaScript tries to convert the operands to the same type before making the comparison. In this case, the string '2' is converted to the number 2 before the comparison is made.
+
+- D: 2 === '2' outputs **false** . When using the === operator, JavaScript does not perform type conversion before making the comparison. In this case, the operands are of different types (number and string), so the comparison result is false.
+
+- E: true == 2 outputs **false** . When using the == operator, JavaScript tries to convert the operands to the same type before making the comparison. In this case, true is converted to the number 1, so the comparison becomes 1 == 2, which is false.
+
+- F: true === Boolean(2) outputs **true** . When using the === operator, JavaScript does not perform type conversion before making the comparison. In this case, both operands are of different types (boolean and number), but their values are both true, so the comparison result is true.  <br /><br />
+
+Question 15: The == operator performs a loose or abstract equality comparison, which means it checks if the values are equal after performing type coercion if necessary. This means that if the two values being compared are of different data types, JavaScript will try to convert one or both of them to the same type before making the comparison.  <br />
+
+The === operator performs a strict equality comparison, which means it checks if the values are equal without performing any type coercion. This means that the two values being compared must be of the same data type and have the same value in order for the comparison to return true. 
