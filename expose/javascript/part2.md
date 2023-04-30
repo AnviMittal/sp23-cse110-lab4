@@ -19,19 +19,19 @@ Question 12:
 
 
 Question 13: 
-- A: '3' + 2 outputs **32**. The + operator when used with a string concatenates the string and the number as strings. 
+- A: '3' + 2 outputs **32** . The + operator when used with a string concatenates the string and the number as strings. 
 
-- B: '3' - 2 outputs **1**. When the - operator is used, JavaScript automatically converts the string '3' to the number 3 and then subtracts 2 from it.
+- B: '3' - 2 outputs **1** . When the - operator is used, JavaScript automatically converts the string '3' to the number 3 and then subtracts 2 from it.
 
-- C: 3 + null outputs **3**. When null is used, it is automatically converted to 0.
+- C: 3 + null outputs **3** . When null is used, it is automatically converted to 0.
 
-- D: '3' + null outputs **3null**. When null is used with the + operator, it is converted to the string `null` and concatenated with the string '3'.
+- D: '3' + null outputs **3null** . When null is used with the + operator, it is converted to the string `null` and concatenated with the string '3'.
 
-- E: true + 3 outputs **4**. When true is used in a mathematical operation, it is automatically converted to 1.
+- E: true + 3 outputs **4** . When true is used in a mathematical operation, it is automatically converted to 1.
 
-- F: false + null outputs **0**. When false and null are used in a mathematical operation, they are both automatically converted to 0.
+- F: false + null outputs **0** . When false and null are used in a mathematical operation, they are both automatically converted to 0.
 
-- G: '3' + undefined outputs **3undefined**. When undefined is used with the + operator, it is converted to the string 'undefined' and concatenated with the string '3'.
+- G: '3' + undefined outputs **3undefined** . When undefined is used with the + operator, it is converted to the string 'undefined' and concatenated with the string '3'.
   
 - H: '3' - undefined outputs **NaN** (Not a Number). When undefined is used in a mathematical operation, it is converted to NaN, which means the result of the operation is not a number. <br /><br />
 
