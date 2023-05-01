@@ -1,0 +1,2 @@
+1. The bug was that the numbers that were being inputed were treated as strings and the result was a string concatenation of the 2 inputed numbers. 
+2. In order to fix this, I converted the string inputs into integers by using `parseInt`. This way the calculateSum function adds two integers instead of adding two strings using the '+' operator. 
