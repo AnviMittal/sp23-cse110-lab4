@@ -51,4 +51,12 @@ Question 14:
 Question 15:  <br />
 The == operator performs a loose or abstract equality comparison, which means it checks if the values are equal after performing type coercion if necessary. This means that if the two values being compared are of different data types, JavaScript will try to convert one or both of them to the same type before making the comparison.  <br />
 
-The === operator performs a strict equality comparison, which means it checks if the values are equal without performing any type coercion. This means that the two values being compared must be of the same data type and have the same value in order for the comparison to return true. 
+The === operator performs a strict equality comparison, which means it checks if the values are equal without performing any type coercion. This means that the two values being compared must be of the same data type and have the same value in order for the comparison to return true.  <br /><br />
+
+Question 17: The program returns **[2, 4, 6]** . This is because when the modifyArray function is called with [1, 2, 3] and `doSomething` as arguments, the doSomething function is called on each element of the input array, multiplying each element by 2 and pushing the result to `newArr`. Hence the program returns [2, 4, 6]. However, in this program since we are not printing the returned value so, **the program does not print anything**. <br /><br />
+
+Question 19:<br />
+1<br />
+4<br />
+3<br />
+2<br />
